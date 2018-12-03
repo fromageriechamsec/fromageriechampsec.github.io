@@ -1,0 +1,910 @@
+@font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:400;
+     src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/pEbpp8gu02JrI5SDG9jj6g.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:400;
+     src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/sZoRRDfBcJL9e6dHdMU_Tg.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:400;
+     src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/-A4eIjQkAwKL411pgtQ4VA.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:500;
+     src:local('Exo 2 Medium'), local('Exo2-Medium'), url(https://fonts.gstatic.com/s/exo2/v4/hJNWOADMCBRrv6g6rvmDLRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:500;
+     src:local('Exo 2 Medium'), local('Exo2-Medium'), url(https://fonts.gstatic.com/s/exo2/v4/LIOVoUZaNfvKcnPK2sqyzhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:500;
+     src:local('Exo 2 Medium'), local('Exo2-Medium'), url(https://fonts.gstatic.com/s/exo2/v4/6b9HPGUYUr8qZeNu0Z7o-PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:700;
+     src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/bjq6AK9kaX_qiS97tqNwpBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:700;
+     src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/j6S3lQriBGoUURQ3ejUiKBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Exo 2';
+     font-style:normal;
+     font-weight:700;
+     src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/AbMslUVu4Wq5jvNwOBLwLvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoMzH9_sidkFTxRpx-nVOZt1g.woff2) format('woff2');
+     unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoMywVDUTj8DgJRSuHEKdySfs.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoM7Y_mfr7j0PatIrZBoJCV9E.woff2) format('woff2');
+     unicode-range:U+1F00-1FFF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoM2qPyaMejTZ925Ro5CnyJwc.woff2) format('woff2');
+     unicode-range:U+0370-03FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2) format('woff2');
+     unicode-range:U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:italic;
+     font-weight:400;
+     src:local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGKhisFFF-0ifc-Simo8uwJs.woff2) format('woff2');
+     unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGNJvocFWY_5VFjYFbAOOIik.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGLGN1mc631ObjHzqJB_dFFA.woff2) format('woff2');
+     unicode-range:U+1F00-1FFF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGI3P6ux3HwbL10a8ofNXGLA.woff2) format('woff2');
+     unicode-range:U+0370-03FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2) format('woff2');
+     unicode-range:U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:300;
+     src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlAC5S7WFEeHRqL6ObGQGT8o.woff2) format('woff2');
+     unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlMgmx_L9kV4w6g8dYQOLFUI.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlMODs9238LZG2v64UiBIjng.woff2) format('woff2');
+     unicode-range:U+1F00-1FFF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlFjqPhnWKseBf12Mt9_m7kc.woff2) format('woff2');
+     unicode-range:U+0370-03FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2) format('woff2');
+     unicode-range:U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:400;
+     src:local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGAtXaCylRF0D-MaoYoCuiMM.woff2) format('woff2');
+     unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGAAAU1WVAUWBSTvimZV06U4.woff2) format('woff2');
+     unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGCJjduVyTEemf0kCvaihHEU.woff2) format('woff2');
+     unicode-range:U+1F00-1FFF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGFnEzh12mEKZN5amaOp7-V4.woff2) format('woff2');
+     unicode-range:U+0370-03FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2) format('woff2');
+     unicode-range:U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2) format('woff2');
+     unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face{
+     font-family:'Source Sans Pro';
+     font-style:normal;
+     font-weight:600;
+     src:local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
+     unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+ @font-face{
+     font-family:'Graviola-Regular';
+     src:url('../fonts/Graviola-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Graviola-Regular.otf') format('opentype'), url('../fonts/Graviola-Regular.woff') format('woff'), url('../fonts/Graviola-Regular.ttf') format('truetype'), url('../fonts/Graviola-Regular.svg#Graviola-Regular') format('svg');
+     font-weight:normal;
+     font-style:normal;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 700;
+     src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2SXTr6YS-zF4S-kcSWSVi_szpbr_QlqiMurg.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 700;
+     src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2SXTr6YS-zF4S-kcSWSVi_szpbr_QkqiMurg.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+ @font-face {
+     font-family: 'Dancing Script';
+     font-style: normal;
+     font-weight: 700;
+     src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2SXTr6YS-zF4S-kcSWSVi_szpbr_QqqiM.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+ @font-face {
+     font-family: 'Delius';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Delius-Regular'), url(https://fonts.gstatic.com/s/delius/v7/PN_xRfK0pW_9e1rdZsg_.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+ body{
+     margin:0px;
+     padding:0px;
+     line-height:26px;
+     font-size:16px;
+     font-family:'Source Sans Pro', sans-serif;
+     font-weight:400;
+     color:#7a7676;
+}
+ html, body, div, img, i, ul, li, header{
+     outline:0;
+}
+ header, main{
+     display:block;
+}
+ ul{
+     list-style:none;
+}
+ ul{
+     padding:0px;
+     margin:0px;
+     list-style:none;
+}
+ ul li{
+     padding:0px;
+     margin:0px;
+     list-style:none;
+}
+ a{
+     margin:0;
+     padding:0;
+     vertical-align:baseline;
+     outline:none;
+     text-decoration:none;
+     color:#e4b95b;
+}
+ a:hover, a:focus{
+     color:inherit;
+}
+ a:hover, a:active, a:focus{
+     outline:none;
+     text-decoration:none;
+}
+ img{
+     max-width:100%;
+}
+ ::-webkit-input-placeholder{
+     opacity:1 !important;
+}
+ :-moz-placeholder{
+     opacity:1 !important;
+}
+ ::-moz-placeholder{
+     opacity:1 !important;
+}
+ :-ms-input-placeholder{
+     opacity:1 !important;
+}
+ .header-part{
+     float:left;
+     width:100%;
+     position:relative;
+     z-index:999;
+     -webkit-transition:all 0.5s ease 0s;
+     -moz-transition:all 0.5s ease 0s;
+     -ms-transition:all 0.5s ease 0s;
+     -o-transition:all 0.5s ease 0s;
+     transition:all 0.5s ease 0s;
+}
+ .header-part .container{
+     position:relative;
+}
+ .header-top{
+     float:left;
+     width:100%;
+     position:relative;
+     background:#E4B90B;
+     padding:15px 0;
+     -webkit-transition:all 0.5s ease 0s;
+     -moz-transition:all 0.5s ease 0s;
+     -ms-transition:all 0.5s ease 0s;
+     -o-transition:all 0.5s ease 0s;
+     transition:all 0.5s ease 0s;
+}
+ .header-top-inner{
+     float:left;
+     width:100%;
+     position:relative;
+}
+ .header-top-left{
+     float:left;
+     width:auto;
+     font-family:'Graviola-Regular';
+}
+ .header-top-left a{
+     color:#ffffff;
+     display:inline-block;
+     width:auto;
+     margin-right:15px;
+     vertical-align:bottom;
+}
+ .header-top-left a:last-child{
+     margin-right:0px;
+}
+ .top-cell{
+     font-size:18px;
+}
+ .top-cell span{
+     padding-left:10px;
+     vertical-align:bottom;
+}
+ .header-top-right{
+     float:right;
+     width:auto;
+     vertical-align:middle;
+}
+ .social-top{
+     display:inline-block;
+     width:auto;
+}
+ .social-top ul, .social-top li{
+     list-style:none;
+     margin:0px;
+     padding:0px;
+}
+ .social-top li{
+     display:inline-block;
+     width:auto;
+     margin-right:18px;
+     vertical-align:middle;
+}
+ .social-top li a{
+     display:block;
+     font-size:14px;
+}
+ .header-top-right .social-top li a{
+     color:#ffffff;
+}
+ .language-menu{
+     display:inline-block;
+     width:auto;
+     font-family:'Graviola-Regular';
+     font-size:13px;
+     background:#383848;
+     -webkit-border-radius:18px;
+     -moz-border-radius:18px;
+     -ms-border-radius:18px;
+     -o-border-radius:18px;
+     border-radius:18px;
+     position:relative;
+}
+ .language-menu a{
+     color:#ffffff;
+     display:block;
+}
+ .language-menu ul, .language-menu li{
+     list-style:none;
+     margin:0px;
+     padding:0px;
+}
+ .language-menu ul{
+     right:0;
+     position:absolute;
+     top:64px;
+     width:100%;
+     background:#e4b95b;
+     display:none;
+     padding:20px 18px;
+     min-width:135px;
+     z-index:32;
+     font-size:13px;
+     -webkit-border-radius:18px;
+     -moz-border-radius:18px;
+     -ms-border-radius:18px;
+     -o-border-radius:18px;
+     border-radius:18px;
+}
+ .language-menu>ul:after{
+     width:0;
+     height:0;
+     border-left:8px solid transparent;
+     border-right:8px solid transparent;
+     border-bottom:8px solid #e4b95b;
+     right:44px;
+     position:absolute;
+     top:-8px;
+     content:"";
+}
+ .language-menu li{
+     display:block;
+     vertical-align:middle;
+}
+ .language-menu li .fa{
+     margin-right:12px;
+     font-size:15px;
+}
+ .language-menu .current-lang{
+     padding:4px 25px;
+}
+ .language-menu .fa-caret-down{
+     padding-left:17px;
+     color:#e4b95b;
+     font-size:16px;
+}
+ .header-bottom{
+     float:left;
+     width:100%;
+     background:#830b0e;
+     position:relative;
+     border-bottom:6px solid #9e0b0f;
+}
+ .menu-main{
+     float:left;
+     width:40%;
+     font-family:'Graviola-Regular';
+}
+ .menu-main ul, .menu-main li{
+     list-style:none;
+     margin:0px;
+     padding:0px;
+}
+ .menu-main li{
+     float:left;
+     width:auto;
+     font-size:15px;
+     margin-right:25px;
+     position:relative;
+}
+ .menu-main li:last-child{
+     margin-right:0px;
+}
+ .menu-main li a{
+     display:block;
+     position:relative;
+     padding:15px 0 15px 15px;
+     color:#ffffff;
+}
+ .menu-main ul>li:hover>a{
+     color:#E4B90B;
+}
+ .menu-icon{
+     float:right;
+     width:auto;
+     display:none;
+}
+ .menu-icon a{
+     display:inline-block;
+     height:24px;
+     width:30px;
+     margin-top:20px;
+     margin-left:20px;
+     position:relative;
+     z-index:9999;
+}
+ .menu-icon a span{
+     background:#ffffff none repeat scroll 0 0;
+     -webkit-border-radius:3px;
+     -moz-border-radius:3px;
+     -ms-border-radius:3px;
+     -o-border-radius:3px;
+     border-radius:3px;
+     display:inline-block;
+     float:left;
+     height:3px;
+     margin:0 0 5px;
+     position:relative;
+     -webkit-transition:all 0.5s ease 0s;
+     -moz-transition:all 0.5s ease 0s;
+     -ms-transition:all 0.5s ease 0s;
+     -o-transition:all 0.5s ease 0s;
+     transition:all 0.5s ease 0s;
+     width:100%;
+}
+ .menu-icon a span:after{
+     background:#959393 none repeat scroll 0 0;
+     content:"";
+     height:100%;
+     position:absolute;
+     right:0;
+     top:0;
+     width:0;
+}
+ .menu-icon a span.bar-1:after{
+     -webkit-transition:all 0.5s ease 0s;
+     -moz-transition:all 0.5s ease 0s;
+     -ms-transition:all 0.5s ease 0s;
+     -o-transition:all 0.5s ease 0s;
+     transition:all 0.5s ease 0s;
+}
+ .menu-icon a span.bar-2:after{
+     -webkit-transition:all 0.5s ease 0.15s;
+     -moz-transition:all 0.5s ease 0.15s;
+     -ms-transition:all 0.5s ease 0.15s;
+     -o-transition:all 0.5s ease 0.15s;
+     transition:all 0.5s ease 0.15s;
+}
+ .menu-icon a span.bar-3:after{
+     -webkit-transition:all 0.5s ease 0.25s;
+     -moz-transition:all 0.5s ease 0.25s;
+     -ms-transition:all 0.5s ease 0.25s;
+     -o-transition:all 0.5s ease 0.25s;
+     transition:all 0.5s ease 0.25s;
+}
+ .menu-icon a:hover span:after{
+     width:100%;
+}
+ .logo{
+     float:left;
+     width:20%;
+     text-align:center;
+}
+ .logo>a{
+     left:50%;
+     position:absolute;
+     top:-46px;
+     -webkit-transform:translateX(-50%);
+     -moz-transform:translateX(-50%);
+     -ms-transform:translateX(-50%);
+     -o-transform:translateX(-50%);
+     transform:translateX(-50%);
+     width:138px;
+     z-index:30;
+}
+ .header-info{
+     float:right;
+     width:40%;
+     position:relative;
+     padding:15px 0 13px 0;
+}
+ .header-info-inner{
+     float:right;
+     width:auto;
+}
+ .header-collect{
+     display:inline-block;
+     width:auto;
+     margin-right:32px;
+     font-size:15px;
+     font-family:'Graviola-Regular';
+     vertical-align:middle;
+}
+ .header-collect a{
+     color:#ffffff;
+     display:inline-block;
+     vertical-align:middle;
+}
+ .main-part{
+     float:left;
+     width:100%;
+     position:relative;
+}
+ .main-img {
+     background-color: rgba(0, 0, 0, 0);
+     background-repeat: no-repeat;
+     background-image: url(../images/front.jpeg);
+     background-size: cover;
+     background-position: center center;
+     width: 100%;
+     height:100%;
+     opacity: 0.2;
+}
+ .main-box {
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     left: 0;
+     right: 0;
+     line-height: 35px;
+     font-size: 26px;
+     text-indent: 26px;
+}
+ .text-justify {
+     color: black;
+     font-weight: bold;
+     font-family: 'Delius', cursive;
+}
+ #presentation {
+     text-indent: 24px;
+     font-size: 17px !important;
+     line-height: 24px !important;
+}
+ @media(max-width: 1200px) {
+     .menu-main li {
+         margin-right: 9px;
+    }
+}
+ @media(max-width: 991px) {
+     .hidden-body {
+         overflow: hidden;
+    }
+     .menu-main.open {
+         right: 0px;
+    }
+     .menu-main ul>li.open>.drop-nav-arrow {
+         -webkit-transform: rotate(180deg);
+         -moz-transform: rotate(180deg);
+         -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+         transform: rotate(180deg);
+    }
+     .menu-main {
+         position: fixed;
+         right: -100%;
+         height: 100%;
+         overflow-y: scroll;
+         background: #9e0b0f;
+         top: 0;
+         z-index: 999;
+         width: 100%;
+         padding: 150px 0 25px 0;
+         -webkit-transition: all 0.5s ease 0s;
+         -moz-transition: all 0.5s ease 0s;
+         -ms-transition: all 0.5s ease 0s;
+         -o-transition: all 0.5s ease 0s;
+         transition: all 0.5s ease 0s;
+         overflow-x: hidden;
+    }
+     .menu-main li {
+         width: 100%;
+    }
+     .menu-main li a {
+         padding: 10px 15px;
+         padding-right: 45px;
+    }
+     .logo {
+         position: relative;
+         z-index: 9999;
+    }
+     .menu-icon {
+         display: block;
+    }
+     .menu-main>ul>li>a:before {
+         display: none;
+    }
+    /* Header End */
+     .top-cell {
+         font-size: 14px;
+    }
+     .social-top li {
+         margin-right: 13px;
+    }
+     .header-info {
+         float: left;
+    }
+     .header-info-inner {
+         float: left;
+    }
+     .menu-main {
+         float: right;
+    }
+     @media (max-width: 1475px) {
+         .top-left, .top-right {
+             display:none;
+        }
+    }
+}
+ @media(max-width: 767px) {
+     .hidden-body .header-top {
+         display: none;
+    }
+     .hidden-body .header-bottom {
+         margin-top: 20px;
+    }
+     .menu-main {
+         padding-top: 95px;
+    }
+     .header-top {
+         padding-top: 5px;
+    }
+     .header-info {
+         display: none;
+    }
+     .logo>a {
+         top: -12px;
+         width: 80px;
+         left: 0px !important;
+         -webkit-transform: translateX(0px) !important;
+         -moz-transform: translateX(0px) !important;
+         -ms-transform: translateX(0px) !important;
+         -o-transform: translateX(0px) !important;
+         transform: translateX(0px) !important;
+    }
+     .menu-icon a {
+         margin-top: 16px;
+    }
+     .header-top-left, .header-top-right {
+         width: 100%;
+         text-align: center;
+    }
+     .language-menu ul {
+         text-align: left;
+    }
+     .language-menu ul {
+         z-index: 99999;
+    }
+     .section-title h2 {
+         font-size: 32px !important;
+    }
+     .main-box {
+         font-size: 16px !important;
+         line-height: 24px !important;
+    }
+     #presentation .text-justify {
+         text-indent: 13px;
+         font-size: 13px !important;
+         line-height: 18px !important;
+    }
+     #products .container {
+         padding: 13px 0 0;
+    }
+     .section-title h6 {
+         font-size:13px;
+    }
+}
+ .sticky-fixed {
+     position: fixed !important;
+     left: 0px !important;
+     top: 0px !important;
+     background: #383848;
+}
+ .sticky-fixed .logo>a {
+     width: 77px !important;
+     top: 0px !important;
+}
+ .sticky-fixed .header-bottom {
+     padding: 0px !important;
+}
+ .sticky-fixed .header-top {
+     display: none;
+     -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+     -ms-transition: all 0.5s ease 0s;
+     -o-transition: all 0.5s ease 0s;
+     transition: all 0.5s ease 0s;
+}
+ section .container {
+     padding: 30px 0 30px;
+}
+ .nav-presentation {
+     position: absolute;
+     left: 50%;
+     top: -58px;
+     width: 254px;
+     background: url(../images/icons/pattern-white.png) no-repeat center center;
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     -o-transform: translateX(-50%);
+     transform: translateX(-50%);
+     height: 59px;
+     z-index: 30;
+     text-align: center;
+     padding: 20px 25px 0 0;
+}
+ .section-title h2 {
+     font-size: 70px;
+     color: #383848;
+     font-weight: bold;
+     font-family: 'Dancing Script', cursive;
+}
+ #presentation .rounded {
+     border-radius: 2rem!important;
+}
+ .top-left {
+     top: 120px;
+     left: 34px;
+}
+ .top-right {
+     top: 109px;
+     right: 80px;
+}
+ .bottom-left {
+     top: 60%;
+     left: 20px;
+}
+ .bottom-right {
+     top: 80%;
+     right: 63px;
+}
+ @media (max-width: 1475px) {
+     .bottom-left, .bottom-right {
+         display:none;
+    }
+}
+ .section-title h6 {
+     color: #383848;
+     font-weight: normal;
+     font-family: 'Exo 2', cursive;
+}
+ .products .card-title {
+     font-size:23px;
+     font-weight:bold;
+}
+ .products {
+     color:black;
+}
