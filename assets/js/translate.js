@@ -1,4 +1,10 @@
 var dictionary = {
+  'Le site web est en construction et sera bientôt disponible! En attendant, vous pouvez toujours venir visiter notre magasin à Champsec, Valais': {
+	fr: 'Le site web est en construction et sera bientôt disponible! En attendant, vous pouvez toujours venir visiter notre magasin à Champsec, Valais',
+	en: 'The website is under construction and it will be available soon! In the meantime, you can always come and check our shop in Champsec, Valais',
+	de: 'Die Website befindet sich im Aufbau und wird bald verfügbar sein! In der Zwischenzeit können Sie jederzeit unseren Shop in Champsec, Wallis besuchen',
+	it: 'Il sito è in costruzione e sarà presto disponibile! Nel frattempo, puoi sempre venire a controllare il nostro negozio a Champsec, nel Vallese'
+  },
   'Français <i class="fa fa-caret-down" aria-hidden="true"></i>': {
 	fr: 'Français <i class="fa fa-caret-down" aria-hidden="true"></i>',
 	en: 'English <i class="fa fa-caret-down" aria-hidden="true"></i>',
